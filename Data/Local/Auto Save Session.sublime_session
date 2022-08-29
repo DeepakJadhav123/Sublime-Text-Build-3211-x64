@@ -1,0 +1,601 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3211,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"p",
+						"prise"
+					],
+					[
+						"pr",
+						"prise"
+					],
+					[
+						"onc",
+						"onclick\tAttr"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"re",
+						"required\tAttr"
+					],
+					[
+						"nav",
+						"nav-item"
+					],
+					[
+						"text",
+						"text-danger"
+					],
+					[
+						"st",
+						"style\tTag"
+					],
+					[
+						"opt",
+						"option\tTag"
+					],
+					[
+						"borr",
+						"border-radius\tproperty"
+					],
+					[
+						"bor",
+						"border-left\tproperty"
+					],
+					[
+						"wid",
+						"width\tproperty"
+					],
+					[
+						"c",
+						"col-md-4"
+					],
+					[
+						"col",
+						"col-sm-12"
+					],
+					[
+						"mar",
+						"margin\tproperty"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "\n\n1) shaire btn added.\n2) calander icon deleted and plus icon added.\n3) toggle side bar is completed.\n4) title set to new create list.\n5) btn color are changed to orange.\n6) background color is changed to white.\n7) create list box input and btn make a small.\n===========All UI related changes done=============\nabove all change yeresterd given is completed .\n\nI needed thsi api i got some of them so am working on this api.\n1) created Nexted List - Post API\n2) created Nexted List - get API all\n3) created Nexted List - get API singel\n\n4) assigned to - get API single\n5) assigned to - post (upadate status)\n6) assigned to - get get all\n\n\ntodo-list/getList/:id\ntodo-list/getById/:id\nown-task/getCompleted/1\nown-task/getPending/1\ntodo-list/create\nown-task/getby/2\nown-task/create\n\n================ Todo-Task-Assigned-To =================\n{ \"id\": 140, \n\"taskName\": \"Transport Problam\", \n\"listId\": 14, \n\"assignedTo\": 1, ------------------------------ user\n\"completedDate\": \"2022-08-05T00:00:00.000Z\", -- \n\"taskStatus\": \"Pending\", \n\"updatedDate\": \"2022-08-05T00:00:00.000Z\",----- \n\"updatedBy\": 1 -------------------------------- role\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/ddd",
+					"file_size": 1097,
+					"file_write_time": 133041517526111257,
+					"settings":
+					{
+						"buffer_size": 1158,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/sss.html",
+					"settings":
+					{
+						"buffer_size": 851,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/tttt.html",
+					"settings":
+					{
+						"buffer_size": 895,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/reverse.html",
+					"settings":
+					{
+						"buffer_size": 381,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n\t<script type=\"text/javascript\">\n\t\tvar arr=['a','b','c','d','e','f','f','f','f','a','c','c'];\n\t\tvar ck=arr.reduce((ac,cr)=>{\n\t\t\tif(ac[cr]){\n\t\t\t\tac[cr]= ++ac[cr];\n\t\t\t}else{\n\t\t\t\tac[cr]=1;\n\t\t\t}\n\t\t\treturn ac;\n\t\t},{});\n\t\tconsole.log(ck);\n\n\t\t\n\t</script>\n\n</body>\n</html>\n\n\n downloadFile() {\n    this.complaintService.getCSV(this.filterObject).subscribe((res) => {\n      var blob = new Blob([res], { type: \"text/plain;charset=utf-8\" });\n      fileSaver.saveAs(blob, \"Complaint.csv\");\n    });\n  }\n\n\n  ",
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/try.html",
+					"file_size": 348,
+					"file_write_time": 133046926553098520,
+					"settings":
+					{
+						"buffer_size": 555,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n\t  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script>\n  <style>\n  \t*{\n  \t\tmargin: 0px;\n  \t\tpadding: 0px;\n  \t\tbox-sizing: border-box;\n  \t}\n\n </style>\n</head>\n<body>\n\n\t<div class=\"shadow m-5 py-2\">\n\t\t<div class=\"row m-4\">\n\t\t\t<div class=\"col-md-6\">\n\t\t\t\t<h5>18 Comments</h5>\n\t\t\t</div>\n\t\t\t<div class=\"col-md-6 text-end\">\n\t\t\t\t<span>Sort by</span>\n\t\t\t\t<select>\n\t\t\t\t\t<option>Oldetst</option>\n\t\t\t\t</select>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div class=\"card m-4\">\n\t\t\t<div class=\"card-body\">\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<textarea class=\"form-control\" rows=\"6\" placeholder=\"Add a comment...\">\n\t\t\t\t\t\t\n\t\t\t\t\t</textarea>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card-footer text-end\">\n\t\t\t\t<button class=\"btn btn-primary btn-sm px-3 py-0\">Post</button>\n\t\t\t</div>\n\t\t</div>\n\n\t    <div class=\"m-4\">\n\t    \t<h5>Courtney Henry</h5>\n\t\t<p>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididunt ut labore et dolore magna aliqua. \n\t\t</p>\n\t\t<a href=\"\" > Like </a>\n\t\t<a href=\"\" class=\"mx-2\"> Reply</a>\n\t\t<span>20h</span>\n\t\t<br><br>\n\t\t<h5>Rounal Richiards </h5>\n\t\t<p>\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\t\ttempor incididunt ut labore et dolore magna aliqua. \n\t\t</p>\n\t\t<a href=\"\"> Like </a>\n\t\t<a href=\"\" class=\"mx-2\"> Reply</a>\n\t\t<span>6h</span>\n        </div>\n        <hr>\n\t    <div class=\"m-4\">\n\t\t<a href=\"\"> <b>Load 13 more Comments</b></a>\n\t    </div>\n\t</div>\n\n</body>\n</html>\n\n\nJavaScript Tutorial\n\nJavaScript Introduction\nJavaScript Example\nExternal JavaScript\nJavaScript Basics\n\nJavaScript Comment\nJavaScript Variable\nJavaScript Global Variable\nJavaScript Data Types\nJavaScript Operators\nJavaScript If Statement\nJavaScript Switch\nJavaScript Loop\nJavaScript Function\nJavaScript Objects\n\nJavaScript Object\nJavaScript Array\nJavaScript String\nJavaScript Date\nJavaScript Math\nJavaScript Number\nJavaScript Boolean\nJavaScript DataView\nJavaScript Function\nJavaScript handler\nJavaScript JSON\nJavaScript Number\nJavaScript Reflect\nJavaScript RegExp\nJavaScript Symbol\nJavaScript BOM\n\nBrowser Objects\n1) Window Object\n2) History Object\n3) Navigator Object\n4) Screen Object\nJavaScript DOM\n\n5) Document Object\ngetElementById\ngetElementsByName\ngetElementsByTagName\nJavaScript innerHTML property\nJavaScript innerText property\nJavaScript Validation\n\nJavaScript form validation\nJavaScript email validation\nJavaScript OOPs\n\nJavaScript Class\nJavaScript Object\nJavaScript Prototype\nJavaScript constructor Method\nJavaScript static Method\nJavaScript Encapsulation\nJavaScript Inheritance\nJavaScript Polymorphism\nJavaScript Abstraction\nJavaScript Cookies\n\nJavaScript Cookies\nCookie Attributes\nCookie with multiple Name\nDeleting Cookies\nJavaScript Events\n\nHTML/DOM Events\nJavaScript Misc\n\nJavaScript this Keyword\nJavaScript Debugging\nJavaScript Hoisting\nJavaScript Strict Mode\nJavaScript Advance\n\nJavaScript TypedArray\nJavaScript Set\nJavaScript Map\nJavaScript WeakSet\nJavaScript WeakMap\nInterview Questions\n\nJavaScript Interview Questions\nJavaScript Methods\n\nJavaScript Array Object\n\nJavaScript Array\nArray concat() method\nArray copywithin() method\nArray every() method\nArray fill() method\nArray filter() method\nArray find() method\nArray findIndex() method\nArray forEach() method\nArray includes() method\nArray indexOf() method\nArray join() method\nArray lastIndexOf() method\nArray map() method\nArray pop() method\nArray push() method\nArray reverse() method\nArray shift() method\nArray slice() method\nArray sort() method\nArray splice() method\nArray unshift() method\nJavaScript DataView Object\n\nJavaScript DataView\nDataView getFloat32() method\nDataView getFloat64() method\nDataView getInt8() method\nDataView getInt16() method\nDataView getInt32() method\nDataView getUint8() method\nDataView getUint16() method\nDataView getUint32() method\nJavaScript Function Object\n\nJavaScript Function\nFunction apply() method\nFunction bind() method\nFunction call() method\nFunction toString() method\nJavaScript Date Object\n\nJavaScript Date\ndate getDate() method\ndate getDay() method\ndate getFullYears() method\ndate getHours() method\ndate getMilliseconds() method\ndate getMinutes() method\ndate getMonth() method\ndate getSeconds() method\ndate getUTCDate() method\ndate getUTCDay() method\ndate getUTCFullYears() method\ndate getUTCHours() method\ndate getUTCMinutes() method\ndate getUTCMonth() method\ndate getUTCSeconds() method\ndate setDate() method\ndate setDay() method\ndate setFullYears() method\ndate setHours() method\ndate setMilliseconds() method\ndate setMinutes() method\ndate setMonth() method\ndate setSeconds() method\ndate setUTCDate() method\ndate setUTCDay() method\ndate setUTCFullYears() method\ndate setUTCHours() method\ndate setUTCMilliseconds() method\ndate setUTCMinutes() method\ndate setUTCMonth() method\ndate setUTCSeconds() method\ndate toDateString() method\ndate toISOString() method\ndate toJSON() method\ndate toString() method\ndate toTimeString() method\ndate toUTCString() method\ndate valueOf() method\nJavaScript handler Object\n\nJavaScript handler\nhandler apply() method\nhandler construct() method\nhandler defineProperty() method\nhandler deleteProperty() method\nhandler get() method\nhandler getOwnPropertyDescriptor() method\nhandler getPrototypeOf() method\nhandler has() method\nhandler isExtensible() method\nhandler ownKeys() method\nhandler preventExtensions() method\nhandler set() method\nhandler setPrototypeOf() method\nJavaScript JSON Object\n\nJavaScript JSON\nJSON.parse() method\nJSON.stringify() method\nJavaScript Map Object\n\nJavaScript Map\nMap clear() method\nMap delete() method\nMap entries() method\nMap forEach() method\nMap get() method\nMap has() method\nMap keys() method\nMap set() method\nMap values() method\nJavaScript Math Object\n\nJavaScript Math\nMath abs() method\nMath acos() method\nMath asin() method\nMath atan() method\nMath cbrt() method\nMath ceil() method\nMath cos() method\nMath cosh() method\nMath exp() method\nMath floor() method\nMath hypot() method\nMath log() method\nMath max() method\nMath min() method\nMath pow() method\nMath random() method\nMath round() method\nMath sign() method\nMath sin() method\nMath sinh() method\nMath sqrt() method\nMath tan() method\nMath tanh() method\nMath trunc() method\nJavaScript Number Object\n\nJavaScript Number\nNumber isFinite() method\nNumber isInteger() method\nNumber parseFloat() method\nNumber parseInt() method\nNumber toExponential() method\nNumber toFixed() method\nNumber toPrecision() method\nNumber toString() method\nJavaScript RegExp Object\n\nJavaScript RegExp\nRegExp.exec() method\nRegExp.test() method\nRegExp.toString() method\nJavaScript Object\n\nJavaScript Object\nObject.assign() method\nObject.create() method\nObject.defineProperty() method\nObject.defineProperties() method\nObject.entries() method\nObject.freeze() method\ngetOwnPropertyDescriptor() method\ngetOwnPropertyDescriptors() method\ngetOwnPropertyNames() method\ngetOwnPropertySymbols() method\nObject.getPrototypeOf() method\nObject.is() method\npreventExtensions() method\nObject.seal() method\nObject.setPrototypeOf() method\nObject.values() method\nJavaScript Reflect Object\n\nJavaScript Reflect\nReflect.apply() method\nReflect.construct() method\nReflect.defineProperty() method\nReflect.deleteProperty() method\nReflect.get() method\ngetOwnPropertyDescriptor() method\nReflect.getPrototypeOf() method\nReflect.has() method\nReflect.isExtensible() method\nReflect.ownKeys() method\npreventExtensions() method\nReflect.set() method\nReflect.setPrototypeOf() method\nJavaScript Set Object\n\nJavaScript Set\nSet add() method\nSet clear() method\nSet delete() method\nSet entries() method\nSet forEach() method\nSet has() method\nSet values() method\nJavaScript String Object\n\nString charAt() method\nString charAt() method\nString charCodeAt() method\nString concat() method\nString indexOf() method\nString lastIndexOf() method\nString search() method\nString match()\nString replace() method\nString substr() method\nString substring() method\nString slice() method\nString toLowerCase() method\ntoLocaleLowerCase() method\nString toUpperCase() method\ntoLocaleUpperCase() method\nString toString() method\nString valueOf() method\nJavaScript Symbol Object\n\nJavaScript Symbol\nSymbol.for() method\nSymbol.keyFor() method\nSymbol.toString() method\nSymbol Property\n\nSymbol.hasInstance Property\nisConcatSpreadable Property\nSymbol.match Property\nSymbol.prototype Property\nSymbol.replace Property\nSymbol.search Property\nSymbol.split Property\nSymbol.toStringTag Property\nSymbol.unscopables Property\nJavaScript TypedArray Object\n\nJavaScript TypedArray\nTypedArray copyWithin() method\nTypedArray entries() method\nTypedArray every() method\nTypedArray fill() method\nTypedArray filter() method\nTypedArray find() method\nTypedArray findIndex() method\nTypedArray forEach() method\nTypedArray includes() method\nTypedArray indexof() method\nTypedArray join() method\nTypedArray Keys() method\nTypedArray lastIndexof() method\nTypedArray map() method\nTypedArray reduce() method\nTypedArray reduceRight() method\nTypedArray reverse() method\nTypedArray set() method\nTypedArray Slice() method\nTypedArray some() method\nTypedArray sort() method\nTypedArray subarray() method\nTypedArray values() method\ntoLocaleString() method\nTypedArray toString() method\nJavaScript WeakMap Object\n\nJavaScript WeakMap\nWeakMap delete() method\nWeakMap get() method\nWeakMap has() method\nWeakMap set() method\nJavaScript WeakSet Object\n\nJavaScript WeakSet\nWeakSet add() method\nWeakSet delete() method\nWeakSet has() method\n\n\n\n\n\n\n\n\n\n",
+					"file": "/C/Users/User/Desktop/sample.html",
+					"file_size": 1798,
+					"file_write_time": 133056341228474761,
+					"settings":
+					{
+						"buffer_size": 9618,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Desktop/hh.html",
+					"settings":
+					{
+						"buffer_size": 5123,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Desktop/ruut.html",
+					"settings":
+					{
+						"buffer_size": 2438,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/todo_servicess.js",
+					"settings":
+					{
+						"buffer_size": 5527,
+						"encoding": "UTF-8",
+						"line_ending": "Windows",
+						"name": "import { Injectable } from \"@angular/core\";"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 227.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					" \">",
+					"m-2",
+					"\">\n",
+					">\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"m-4"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/ddd",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1158,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1130,
+										836
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 178.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/sss.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 851,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										389,
+										389
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 172.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/tttt.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 895,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										895
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 224.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/reverse.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 381,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										354,
+										354
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/try.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 555,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										547,
+										351
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/C/Users/User/Desktop/sample.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9618,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9608,
+										9608
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1288.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/C/Users/User/Desktop/hh.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5123,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4091,
+										4091
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1147.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/C/Users/User/Desktop/ruut.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2438,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										460,
+										460
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/C/Users/User/Downloads/Sublime Text Build 3211 x64/todo_servicess.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5527,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4980,
+										4980
+									]
+								],
+								"settings":
+								{
+									"auto_name": "import { Injectable } from \"@angular/core\";",
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2247.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,747,778,209,1434",
+			"project": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

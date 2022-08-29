@@ -1,0 +1,43 @@
+
+
+1) shaire btn added.
+2) calander icon deleted and plus icon added.
+3) toggle side bar is completed.
+4) title set to new create list.
+5) btn color are changed to orange.
+6) background color is changed to white.
+7) create list box input and btn make a small.
+===========All UI related changes done=============
+above all change yeresterd given is completed .
+
+I needed thsi api i got some of them so am working on this api.
+1) created Nexted List - Post API
+2) created Nexted List - get API all
+3) created Nexted List - get API singel
+
+4) assigned to - get API single
+5) assigned to - post (upadate status)
+6) assigned to - get get all
+
+
+todo-list/getList/:id
+todo-list/getById/:id
+own-task/getCompleted/1
+own-task/getPending/1
+todo-list/create
+own-task/getby/2
+own-task/create
+
+================ Todo-Task-Assigned-To =================
+{ "id": 140, 
+"taskName": "Transport Problam", 
+"listId": 14, 
+"assignedTo": 1, 
+"completedDate": "2022-08-05T00:00:00.000Z", 
+"taskStatus": "Pending", 
+"updatedDate": "2022-08-05T00:00:00.000Z", 
+"updatedBy": 1 
+}
+
+
+

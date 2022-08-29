@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	class book{
+     id;
+     name;
+     auther;
+     publisher;
+     prise;
+
+     constructor(id,name,auther,publisher,prise){
+     	this.id=id;
+     	this.name=name;
+     	this.auther=auther;
+     	this.publisher=publisher;
+     	this.prise=prise;
+
+     }
+
+     printBook(){
+        console.log(`ID :${this.id} , name : ${this.name} , auther : ${this.auther} , publisher : ${this.publisher} , prise : ${this.prise}`)
+     }  
+	}
+    var obj=new book("1","geeta","valmiki","ganesh","330Rs");
+	var obj1=new book("2","rajniti","deepak","rajesh","340Rs");
+    var obj2=new book("3","prtigya","amol","sangita","360Rs");
+    var obj3=new book("4","computer","shamal","rupali","230Rs");
+
+    obj.printBook();
+    obj1.printBook();
+    obj2.printBook();
+    obj3.printBook();
+    
+
+</script>
+</body>
+</html>

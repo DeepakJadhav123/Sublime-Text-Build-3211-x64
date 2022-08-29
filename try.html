@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var arr=['a','b','c','d','e','f','f','f','f','a','c','c'];
+		var ck=arr.reduce((ac,cr)=>{
+			if(ac[cr]){
+				ac[cr]= ++ac[cr];
+			}else{
+				ac[cr]=1;
+			}
+			return ac;
+		},{});
+		console.log(ck);
+
+		
+	</script>
+
+</body>
+</html>
